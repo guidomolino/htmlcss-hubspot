@@ -22,11 +22,16 @@
   color: rgb(11, 13, 37);
   height: 80px;
   line-height: 80px;
-  border-bottom: 1px solid #cbd6e2;
+  border-bottom: 1px solid rgb(26, 38, 79);
 }
 
 .nav-fissa a{
   text-decoration: none;
+  color: inherit;
+}
+
+.nav-fissa-col2 i{
+  color: rgb(18, 205, 255);
 }
 
 .nav-fissa-col1{
@@ -66,23 +71,24 @@
   width: 100%;
   margin-top: 80px;
   line-height: 80px;
-
-  /* DEBUG:  */
   height: 80px;
 }
 
 .h-nav-col1{
   width: 65%;
   float: left;
-  /* DEBUG:  */
   height: 50px;
 }
 
 .h-nav-col2{
   width: 35%;
   float: left;
-  /* DEBUG:  */
   height: 50px;
+}
+
+.h-nav-col2 a{
+  color: inherit;
+  text-decoration: none;
 }
 
 .h-nav-col2 li{
@@ -317,7 +323,7 @@ header p{
 .container2{
   background-color: rgb(0, 198, 200);
   width: 100%;
-  height: 1200px;
+  height: 840px;
   color: white;
 }
 
@@ -331,5 +337,239 @@ header p{
 }
 
 .c2-header p{
-  padding: 4  0px 0;
+  font-size: 20px;
+  padding: 40px 0;
+  margin-bottom: 30px;
+}
+/* PRIMA RIGA */
+.c2-row2, .c2-row3{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+div [class^="c2-row2-col"]{
+  float: left;
+  width: calc(100%/4);
+  height: 200px;
+  border-bottom: 2px solid white;
+
+}
+div [class^="c2-row3-col"]{
+  padding-top: 45px;
+  float: left;
+  width: calc(100%/4);
+}
+
+.c2-row2, .c2-row3::after{
+  content: none;
+  display: table;
+  clear:both;
+}
+
+.c2-number{
+  font-size: 50px;
+  margin: 15px 0;
+}
+
+.c2-row2 > div:not(:first-child), .c2-row3 > div:not(:first-child) {
+  border-left: 2px solid white;
+}
+
+/* TERZO CONTAINER*/
+.container3{
+  height: 713px;
+}
+/* PRIMA RIGA */
+.c3-row1{
+  margin: 60px;
+  float: left;
+  width: 100%;
+}
+
+
+.c3-row1:after{
+  content: none;
+  display: table;
+  clear:both;
+}
+/* COLONNA 1 */
+.c3-row1-col1{
+  float: left;
+  width: 30%;
+  padding-left: 60px;
+}
+
+.c3-row1-col1 h3{
+  font-size: 50px;
+}
+
+.c3-row1-col1 p{
+  margin-top: 20px;
+  font-size: 20px;
+}
+/* COLONNA 2 */
+.c3-row1-col2{
+  float: left;
+  width: 70%;
+  text-align: center;
+}
+
+.c3-row1-col2 li{
+  list-style: none;
+  display: inline-block;
+  margin: 20px 25px;
+}
+
+.c3-logo{
+  width: 100px;
+  height: 30px;
+}
+/* PRIMA RIGA */
+.c3-row2{
+  float: left;
+}
+
+.c3-row2::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+/* COLONNA 1 */
+.c3-row2-col1{
+  float: left;
+  width: 35%;
+  padding-top:30px;
+}
+
+.c3-row2-col1 h3{
+  font-size: 40px;
+}
+
+.c3-row2-col1 p{
+  font-size: 20px;
+  margin: 50px 0 50px 0;
+}
+
+.c3-row2-col1 a{
+  background-color: #ff7a59;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/* COLONNA 2 */
+.c3-row2-col2{
+  float: left;
+  width: 55%;
+  text-align: right;
+  height: 300px;
+}
+
+.c3-row2-col2 img{
+  width: 40%;
+  height: auto;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: #33475b;
+  width:100%;
+  height: 700px;
+  color: #cbd6e2;
+}
+
+footer li{
+  list-style: none;
+}
+
+footer a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+}
+/* PRIMA RIGA */
+.f-row1{
+  float: left;
+  width: 100%;
+}
+
+.f-row1::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.f-row1 h5{
+  margin: 35px 0;
+  font-size: 22px;
+  color: white;
+}
+
+.f-row1 li{
+  margin-bottom: 20px;
+}
+
+.f-row1-col1, .f-row1-col2, .f-row1-col3, .f-row1-col4{
+  float: left;
+  width: calc(100%/4);
+}
+
+.f-row1-col4 > a{
+  display: inline-block;
+  background-color: #cbd6e2;
+  border: none;
+  color: #33475b;
+  padding: 15px 12px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.f-row1 i{
+  margin: 13px;
+}
+/* SECONDA RIGA */
+.f-row2{
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.f-row2 li{
+  display: inline-block;
+  margin: 20px 10px;
+  font-size: 20px;
+}
+/* TERZA RIGA */
+.f-row3{
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.f-row3-col1{
+  float: left;
+  width: 50%;
+}
+
+.copyright{
+  color: white;
+}
+
+.f-row3-col2{
+  text-align: right;
+  float: right;
+  width: 50%;
+}
+
+.f-row3-col2 a{
+  margin-left:15px;
 }
