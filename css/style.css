@@ -169,6 +169,7 @@ header p{
   padding: 40px 120px;
   margin: 60px 0;
   border-radius: 15px;
+  box-shadow: 0px 0px 4px 1px rgba(48,71,74,0.26);
 }
 /* COLONNA 1 */
 .c1-row1-col1{
@@ -255,6 +256,7 @@ header p{
   text-align: center;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 0px 0px 4px 1px rgba(48,71,74,0.26);
 }
 
 .row2-col1-icon{
@@ -349,6 +351,7 @@ header p{
   float: left;
   width: 100%;
   text-align: center;
+
 }
 
 div [class^="c2-row2-col"]{
@@ -459,11 +462,11 @@ div [class^="c2-row3-col"]{
   background-color: #ff7a59;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 20px 32px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 /* COLONNA 2 */
 .c3-row2-col2{
@@ -496,6 +499,11 @@ footer a{
   color: inherit;
   font-size: 20px;
 }
+
+footer a:hover{
+  color: rgb(70, 180, 207);
+}
+
 /* PRIMA RIGA */
 .f-row1{
   float: left;
@@ -532,8 +540,12 @@ footer a{
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 10px 0;
+}
+
+.f-row1-col4 > a:hover{
+  color: #33475b;
 }
 
 .f-row1 i{
