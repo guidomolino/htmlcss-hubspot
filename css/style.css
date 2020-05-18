@@ -5,7 +5,7 @@
 }
 
 .centratura{
-  padding: 0 10%;
+  padding: 0 15%;
 }
 .colore1{
   color: rgb(26, 38, 79);
@@ -76,13 +76,13 @@
 }
 
 .h-nav-col1{
-  width: 65%;
+  width: 55%;
   float: left;
   height: 50px;
 }
 
 .h-nav-col2{
-  width: 35%;
+  width: 45%;
   float: left;
   height: 50px;
 }
@@ -115,6 +115,7 @@ header h1{
 
 header a{
   background-color: #ff7a59;
+  display: inline-block;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -122,7 +123,7 @@ header a{
   text-decoration: none;
   cursor: pointer;
   border-radius: 10px;
-  margin:40px 0;
+  margin:13px 0;
 }
 
 header p{
@@ -131,7 +132,7 @@ header p{
 }
 
 .h-box{
-  width: 45%;
+  width: 55%;
   padding-top: 50px;
   height: 500px;
 }
@@ -164,8 +165,8 @@ header p{
   background-color: white;
   float: left;
   width: 100%;
-  height: 280px;
-  padding: 40px 180px;
+  height: 260px;
+  padding: 40px 120px;
   margin: 60px 0;
   border-radius: 15px;
 }
@@ -174,6 +175,7 @@ header p{
   float: left;
   width: 20%;
   height: auto;
+  margin-right: 5%;
 }
 
 .c1-row1-imgresizer{
@@ -197,7 +199,7 @@ header p{
 /* COLONNA 2 */
 .c1-row1-col2{
   float: left;
-  width: 80%;
+  width: 75%;
   height: auto;
 }
 
@@ -205,15 +207,18 @@ header p{
   margin: 20px 0;
 }
 
+.c1-row1-col2 h3{
+  font-size: 22px;
+}
+
 .c1-row1-col2 h4{
   float: left;
-  width: 20%;
 }
 
 .c1-row1-col2 hr{
   float: right;
-  margin-top: 6px;
-  width: 80%;
+  margin-top: 8px;
+  width: 75%;
 }
 
 .c1-row1-col2 ul{
@@ -296,7 +301,9 @@ header p{
 }
 
 .c1-row2 a{
+  text-align: center;
   float:left;
+  display: inline-block;
   background-color: #ff7a59;
   border: none;
   color: white;
@@ -304,8 +311,9 @@ header p{
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  width: 45%;
   border-radius: 10px;
-  margin: 40px 30% 20px 30%;
+  margin: 10% 27.5% 8% 27.5%;
 }
 
 
@@ -374,7 +382,7 @@ div [class^="c2-row3-col"]{
 /* TERZO CONTAINER*/
 
 .container3{
-  height: 713px;
+  height: 735px;
 }
 /* PRIMA RIGA */
 .c3-row1{
@@ -421,7 +429,7 @@ div [class^="c2-row3-col"]{
   width: 100px;
   height: 30px;
 }
-/* PRIMA RIGA */
+/* SECONDA RIGA */
 .c3-row2{
   float: left;
 }
@@ -434,7 +442,7 @@ div [class^="c2-row3-col"]{
 /* COLONNA 1 */
 .c3-row2-col1{
   float: left;
-  width: 35%;
+  width: 42%;
   padding-top:30px;
 }
 
@@ -444,7 +452,7 @@ div [class^="c2-row3-col"]{
 
 .c3-row2-col1 p{
   font-size: 20px;
-  margin: 50px 0 50px 0;
+  margin: 56px 0;
 }
 
 .c3-row2-col1 a{
@@ -466,7 +474,7 @@ div [class^="c2-row3-col"]{
 }
 
 .c3-row2-col2 img{
-  width: 40%;
+  width: 45%;
   height: auto;
 }
 
@@ -501,7 +509,7 @@ footer a{
 }
 
 .f-row1 h5{
-  margin: 35px 0;
+  margin: 55px 0 35px 0;
   font-size: 22px;
   color: white;
 }
@@ -567,5 +575,5 @@ footer a{
 }
 
 .f-row3-col2 a{
-  margin-left:15px;
+  margin-left:25px;
 }
